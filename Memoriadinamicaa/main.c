@@ -14,7 +14,7 @@ int main()
 
 
 
-
+    //4ta parte
     if(pNumeros!=NULL)
     {
         for(i=0; i<T; i++)
@@ -60,6 +60,7 @@ int main()
 
     /*
 
+//3era parte, se puso el tamaño de pNumeros con constante T 5
 
     if(pNumeros!=NULL)
     {
@@ -103,7 +104,7 @@ int main()
 
 
 /*
-
+//2nda parte
     int* pNumeros;
     int i;
     pNumeros = (int*) malloc(sizeof(int)*5);
@@ -129,7 +130,7 @@ int main()
 //------------
 
 /*
-
+//1era parte
     pNumero=(int*) malloc(sizeof(int));
     *pNumero=99;
     printf("Heap->:pNumero %d\n",pNumero);
